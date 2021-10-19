@@ -1,4 +1,8 @@
 .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: 15px;
   margin-top: 15px;
   width: 150px;
@@ -8,6 +12,9 @@
   justify-content: center;
   align-items: center;
   background: rgb(199, 69, 52);
+  span {
+      font-size: 40px;
+  }
 }
 
 button {
